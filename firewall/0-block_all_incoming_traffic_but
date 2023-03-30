@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
+<<<<<<< HEAD
 # Bash script that  installs the 'ufw' firewall.
+=======
+# bash script that  installs the 'ufw' firewall and,
+# setup a few rules on 'web-01'
+>>>>>>> 2eb2888bd2af1c99b54311736a09475192002a25
 
 apt-get install ufw
 sed -i 's/IPV6=.*/IPV6=yes/' /etc/default/ufw
